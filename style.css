@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) */ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; } /* HTML5 display-role reset for older browsers */ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; } body { line-height: 1; } ol, ul { list-style: none; } blockquote, q { quotes: none; } blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; } table { border-collapse: collapse; border-spacing: 0; }
+.container {
+    margin: 0 auto;
+    width: 1296px;
+    background-color: orange;
+}
+
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+    line-height: 1.5;
+}
+
+.fill-nav
+{
+    background-color: #aa0601;
+     
+}
+
+.nav
+{
+    background-color: #aa0601;
+     
+}
+
+.nav2 li
+{
+  
+    font-size: 10px;
+    color: #ffffff;
+    padding: 25px 32px;
+     
+}
+
+.section1{
+   
+    background-color: green ;
+    
+} 
+.banner
+{   
+   
+    background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header.png?raw=true');
+    Background-size:cover;
+    height: 787px;
+} 
+.box1{
+    
+    padding: 296px 0px 302px 0px ;
+   
+} 
+
+.box3{
+    
+    background-color: white   ;
+   
+} 
+
+.box4{
+    
+    background-color: black   ;
+
+} 
+.box5{
+    
+    background-color: white   ;
+
+} 
+
+.h1
+{
+    font-size: 36px;
+    color: #650300; 
+}
+.h2
+{
+    font-size: 64px;
+    color: #650300; 
+}
+.h3
+{
+    font-size: 20px;
+    color: #ffffff; 
+    background-color:#650300;
+    padding:6px 12px;
+}
+
+
+
+
+.item1{
+   
+    font-size: 16px;
+    color: white; 
+    }
+.item1-1{
+        font-size: 16px;
+        color:black; 
+}
+.item2
+{  
+color: white;
+font-size: 64px;
+}
+.item2-black
+{  
+color: black;
+font-size: 64px;
+}
+.item3
+{  
+color: #00FFA3;
+font-size: 128px;
+}
+.item4
+{ 
+width: Hug (185px)px;
+height: Hug (48px)px;
+padding: 12px 24px 12px 24px;
+border-radius: 32px;
+opacity: 0px;
+color: black;
+font-size: 16px;
+background-color: white;
+}
+.item4-1
+{ 
+width: Hug (185px)px;
+height: Hug (48px)px;
+padding: 12px 24px 12px 24px;
+border-radius: 32px;
+opacity: 0px;
+color: white;
+font-size: 16px;
+background-color: black;
+
+}
+.item5
+{  
+color: white;
+font-size: 24px;
+}
+.item5-black
+{  
+color: black;
+font-size: 24px;
+}
+
+
+.black
+{
+    color: black;
+      
+}
+.gap-24
+{
+    gap: 24px 24px;
+}
+.gap-36
+{
+    gap: 36px 36px;
+}
+.d-flex
+{
+ display:flex;
+  
+}
+.fww
+{
+    flex-wrap:wrap;
+}
+.jcsb
+{
+    justify-content: space-between;
+}
+.jcfe
+{
+    justify-content: flex-end;
+}
+.fdr
+{
+    flex-direction: row;
+}
+
+.fdc
+{
+    flex-direction: column;
+}
+.aic
+{
+ align-items: center;
+}
+.aifs
+{
+    align-items: flex-start; 
+}
+.align-self {
+     align-self: flex-end;
+  }
+
+
+
+.right
+{
+   
+    margin-left:auto;
+}
+
+.left
+{
+    margin-right:auto;
+}
+
+.center
+{
+    text-align:center;
+}
+.acc
+{
+align-content: center; 
+}
