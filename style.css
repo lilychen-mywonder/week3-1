@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
 
 /* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) */ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; } /* HTML5 display-role reset for older browsers */ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; } body { line-height: 1; } ol, ul { list-style: none; } blockquote, q { quotes: none; } blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; } table { border-collapse: collapse; border-spacing: 0; }
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
 .container {
     margin: 0 auto;
-    width: 1296px;
+    max-width: 1296px;
    
 }
 
@@ -27,140 +33,233 @@ body {
 .nav2 li
 {
   
-    font-size: 10px;
+    font-size: 30px;
     color: #ffffff;
     padding: 25px 32px;
      
 }
-
+.footer{
+   
+    background-color: #aa0601;
+    
+} 
 .section1{
    
     background-color: green ;
     
 } 
-.banner
-{   
+
+.txt{
+    padding: 100px 0px;
+}
+
+
+
+.f1 li
+{
+  
+    font-size: 24px;
+    color: #ffffff;
+    padding: 60px 32px 45px 0px;
    
-    background-image: url('https://github.com/lily55168/week3-1/blob/main/pic-week3/home-header.png?raw=true');
-    Background-size:cover;
-    height: 787px;
-} 
-.box1{
-    
-    padding: 296px 0px 302px 0px ;
+}
+
+.bi-telephone
+{
+    width: 36px;
+}
+.bi-envelope
+{
+    width: 40px;
+}
+
+
+.f2-txt
+{
+  
+    font-size: 54px;
+    color: #ffffff;
+    padding: 8px 22px ;
+     
+}
+
+
+.f-icon li 
+{  
+    font-size: 48px;
+    color: #ffffff;
+    padding: 0px 8px;
+}  
+.f-icon ul 
+{  
+    padding: 48px 32px;
+    padding-right: 0px; 
    
-} 
+}
 
-.box3{
-    
-    background-color: white   ;
+.f-icon li img
+{  
+      width: 48px;
+      padding: 0px; 
+}
+
+
+.f-final-left li
+
+{
+  
+    font-size: 21px;
+    color: #ffffff;
+    padding: 32px 0px;
+     
+}
+
+
+
+
+.f-final-right li
+
+{
+  
+    font-size: 21px;
+    color: #ffffff;
+    padding: 32px 0px 32px 48px;
+     
+}
+
+
+
    
-} 
 
-.box4{
-    
-    background-color: black   ;
 
-} 
-.box5{
-    
-    background-color: white   ;
-
-} 
-
-.h1
+@media  (max-width: 576px)
 {
-    font-size: 36px;
-    color: #650300; 
-}
-.h2
-{
-    font-size: 64px;
-    color: #650300; 
-}
-.h3
-{
-    font-size: 20px;
-    color: #ffffff; 
-    background-color:#650300;
-    padding:6px 12px;
-}
-
-
-
-
-.item1{
+.container {
+    margin: 0 auto;
+    max-width: 576px;
    
-    font-size: 16px;
-    color: white; 
-    }
-.item1-1{
-        font-size: 16px;
-        color:black; 
 }
-.item2
-{  
-color: white;
-font-size: 64px;
-}
-.item2-black
-{  
-color: black;
-font-size: 64px;
-}
-.item3
-{  
-color: #00FFA3;
-font-size: 128px;
-}
-.item4
-{ 
-width: Hug (185px)px;
-height: Hug (48px)px;
-padding: 12px 24px 12px 24px;
-border-radius: 32px;
-opacity: 0px;
-color: black;
-font-size: 16px;
-background-color: white;
-}
-.item4-1
-{ 
-width: Hug (185px)px;
-height: Hug (48px)px;
-padding: 12px 24px 12px 24px;
-border-radius: 32px;
-opacity: 0px;
-color: white;
-font-size: 16px;
-background-color: black;
+.fill-nav .nav
+{
+       display: inline-block;
+ }
 
+.nav1 
+{
+    
+    color: #ffffff;
+    padding: 15px;
+     
 }
-.item5
-{  
-color: white;
-font-size: 24px;
-}
-.item5-black
-{  
-color: black;
-font-size: 24px;
+.nav2 ul
+{
+    display:flex;
+    flex-wrap:wrap;
+    
 }
 
+.nav2 li
+{
+    text-align: center;
+    font-size: 24px;
+    border: 1px solid #ffffff;
+    padding: 12px 60px;
+    width: 50%;
 
-.black
-{
-    color: black;
-      
 }
-.gap-24
+.footer
 {
-    gap: 24px 24px;
+    padding:13px;
 }
-.gap-36
+.f1 .f11
 {
-    gap: 36px 36px;
+    display: none;
 }
+
+.f2 li
+
+{
+padding:11px 0px 8px 0px;
+
+}
+.bi-telephone
+{
+    width: 18px;
+    padding:0px;
+} 
+.bi-envelope
+{
+    width: 20px;
+    padding:0px;
+
+}
+
+.f2 .f2-txt
+{  
+    font-size: 24px;
+    color: #ffffff;
+    padding: 0px 0px 0px 11px ;   
+}
+
+
+.f-icon li 
+{  
+    font-size: 24px;
+    color: #ffffff;
+    padding: 0px 8px;
+}  
+.f-icon ul 
+{  
+    padding: 11px 0px 0px 0px;
+   
+}
+
+.f-icon li img
+{  
+      width: 24px;
+      padding: 0px; 
+}
+
+
+.ff .f-final
+{
+    display: block;
+}
+.f-final-left li
+{
+
+    font-size: 24px;
+    padding: 16px 0px 8px 0px;
+}
+.f-final-right ul
+
+{
+  
+    display: block;
+    
+}
+
+.f-final-right li
+{
+
+    font-size: 24px;
+    padding: 4px 0px 8px 0px;
+}
+
+}
+/*
+
+
+
+*/
+
+
+
+
+
+
+
+
 .d-flex
 {
  display:flex;
